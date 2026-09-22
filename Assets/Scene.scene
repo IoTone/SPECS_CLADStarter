@@ -4,6 +4,9 @@
     - !<own> 00000000-0000-0065-0000-000000000064
     - !<own> 0005641c-028d-459a-0000-000000014b4d
     - !<own> f5d74682-203a-4970-81ea-9fa7b88c96bb
+    - !<own> 2fdbe1c0-41ca-41c4-9d58-c6d3f557a810
+    - !<own> 292630af-9584-4eb7-a1f5-d294384781e6
+    - !<own> e4f680a6-6b06-4bdc-9306-35984d2ea70d
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       - id: 1
@@ -513,6 +516,46 @@
     []
   Components:
     []
+- !<ScriptComponent/1f896a3b-e01d-428a-849d-57bea843143d>
+  PrefabRemaps:
+    []
+  Name: BallPitMain
+  Enabled: true
+  ScriptAsset: !<reference> 388cf012-43f7-45a1-ab16-42522946210d
+  ScriptInputsDefault:
+    ballCount: true
+    width: true
+    depth: true
+    rimHeight: true
+    ballRadius: true
+    gravity: true
+    speedLimit: true
+    ballMass: true
+    sfxVolume: true
+    musicVolume: true
+    debugColliders: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      pool: !<reference.SceneObject> 298195c9-cc19-482f-afd0-9f9baf41e0e0
+      hud: !<MappingBased.AssignableType_1> c963042b-0e55-4aa7-8655-b3884e6cdfd3
+      material: !<reference.Material> bd501582-4654-4165-8a3a-e9c4e5f7cd57
+      matter: !<reference.Matter> 28552b7c-b2ae-4f43-9de4-8f6c5860b996
+      ballCount: !<float> 48.000000
+      width: !<float> 90.000000
+      depth: !<float> 70.000000
+      rimHeight: !<float> 18.000000
+      ballRadius: !<float> 5.000000
+      gravity: !<float> 650.000000
+      speedLimit: !<float> 280.000000
+      ballMass: 0.045000
+      sfxVolume: 0.280000
+      musicVolume: 0.100000
+      debugColliders: false
+  ScriptTypes:
+    "":
+      {}
 - !<RenderMeshVisual/1f969daa-5809-4500-b314-98d91ccba131>
   PrefabRemaps:
     []
@@ -695,6 +738,36 @@
     ring-3_end_end_end: !<reference> b93dfa60-41bd-4999-ac0f-4b2f1df2bdaf
     thumb-3_end_end_end_end: !<reference> 08e3cc22-f2e1-49fb-9ddc-145fe6547ce3
     pinky-3_end_end: !<reference> d08269e3-acd4-4156-b5b9-477ca259611d
+- !<SceneObject/292630af-9584-4eb7-a1f5-d294384781e6>
+  PrefabRemaps:
+    []
+  Name: BALL OUT • Scoreboard
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 7.000000, z: -120.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c963042b-0e55-4aa7-8655-b3884e6cdfd3
+- !<SceneObject/298195c9-cc19-482f-afd0-9f9baf41e0e0>
+  PrefabRemaps:
+    []
+  Name: Pool • move to place
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -55.000000, z: -100.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
 - !<SceneObject/2dae2a27-8ce6-466a-8bff-622195c1b3a8>
   PrefabRemaps:
     []
@@ -710,6 +783,21 @@
     - !<own> a7da4af4-3d84-4acd-a31e-920a56b4c5c8
   Components:
     []
+- !<SceneObject/2fdbe1c0-41ca-41c4-9d58-c6d3f557a810>
+  PrefabRemaps:
+    []
+  Name: BALL OUT • Game
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 298195c9-cc19-482f-afd0-9f9baf41e0e0
+  Components:
+    - !<own> 1f896a3b-e01d-428a-849d-57bea843143d
 - !<RenderMeshVisual/335c5f8b-2917-49e8-8af5-220696e9bc09>
   PrefabRemaps:
     []
@@ -1985,6 +2073,26 @@
   ScriptTypes:
     "":
       {}
+- !<ScriptComponent/c963042b-0e55-4aa7-8655-b3884e6cdfd3>
+  PrefabRemaps:
+    []
+  Name: BallPitHUDUI
+  Enabled: true
+  ScriptAsset: !<reference> 9ff73f16-6dd5-4369-bde1-d07c0a6dcd3a
+  ScriptInputsDefault:
+    title: true
+    width: true
+    accent: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      title: BALL OUT
+      width: !<float> 44.000000
+      accent: !<Vec4> {x: 0.300000, y: 1.000000, z: 0.820000, w: 1.000000}
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/ca40734c-262f-48d3-affa-9f99cd2940f7>
   PrefabRemaps:
     []
@@ -2260,6 +2368,22 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<ScriptComponent/e1b78b2b-e4a4-40a1-850b-c5fe9f36a58d>
+  PrefabRemaps:
+    []
+  Name: AgentInteractScript
+  Enabled: true
+  ScriptAsset: !<reference> 29091811-e792-46be-bfa4-28ddec5f11be
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/e2ba526d-75d1-466b-86a5-9cd7c42dca84>
   PrefabRemaps:
     []
@@ -2290,6 +2414,22 @@
     - !<own> 6a7a67db-5675-49bb-8f31-ba0588e3cffc
   Components:
     []
+- !<SceneObject/e4f680a6-6b06-4bdc-9306-35984d2ea70d>
+  PrefabRemaps:
+    []
+  Name: AiPreviewAgent Handler
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f168cbbf-02dd-45c9-9e58-564924818749
+    - !<own> e1b78b2b-e4a4-40a1-850b-c5fe9f36a58d
 - !<DeviceTracking/e5553c8a-0b7e-4ef4-92d9-3e1318fb82c1>
   PrefabRemaps:
     []
@@ -2368,6 +2508,22 @@
     []
   Components:
     []
+- !<ScriptComponent/f168cbbf-02dd-45c9-9e58-564924818749>
+  PrefabRemaps:
+    []
+  Name: AgentInspectScript
+  Enabled: true
+  ScriptAsset: !<reference> 0b25079c-f5bf-4c6d-96c4-f43b89dfa213
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/f36287fd-ed56-442d-ba20-78f9ef6f3502>
   PrefabRemaps:
     []

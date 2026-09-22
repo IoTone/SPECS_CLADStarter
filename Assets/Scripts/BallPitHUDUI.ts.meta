@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/24ed3497-acd1-4716-8271-18786787dff7>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 9ff73f16-6dd5-4369-bde1-d07c0a6dcd3a
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 9ff73f16-6dd5-4369-bde1-d07c0a6dcd3a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> b7dbd8c6-fd53-4d5e-8f8c-0801d77061a9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/b7dbd8c6-fd53-4d5e-8f8c-0801d77061a9>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 633d6f62-400b-42a9-9d82-852e36f1f6d2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    accent: false
+    title: false
+    width: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - title: BALL OUT
+      width: !<float> 44.000000
+      accent: !<Vec4> {x: 0.300000, y: 1.000000, z: 0.820000, w: 1.000000}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input string title = "BALL OUT" {"hint":"Game title"}'
+    - '// @input float width = 44 {"hint":"Panel width in cm"}'
+    - '// @input vec4 accent = {0.3,1,0.82,1} {"hint":"Accent color", "widget":"color"}'

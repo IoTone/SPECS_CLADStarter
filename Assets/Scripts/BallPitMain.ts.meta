@@ -1,0 +1,88 @@
+- !<AssetImportMetadata/55db92c2-f0f1-45a5-ab3d-d3fd0df81ffc>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 388cf012-43f7-45a1-ab16-42522946210d
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 388cf012-43f7-45a1-ab16-42522946210d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> f9813b5a-a58a-4e76-8c95-44e7dc43b907
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/f9813b5a-a58a-4e76-8c95-44e7dc43b907>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 9bea41f7-2348-4b3d-af56-88d1d396ed0b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    ballCount: false
+    ballMass: false
+    ballRadius: false
+    debugColliders: false
+    depth: false
+    gravity: false
+    hud: false
+    material: false
+    matter: false
+    musicVolume: false
+    pool: false
+    rimHeight: false
+    sfxVolume: false
+    speedLimit: false
+    width: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - pool: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hud: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      matter: !<reference.Matter> 00000000-0000-0000-0000-000000000000
+      ballCount: !<float> 48.000000
+      width: !<float> 90.000000
+      depth: !<float> 70.000000
+      rimHeight: !<float> 18.000000
+      ballRadius: !<float> 5.000000
+      gravity: !<float> 650.000000
+      speedLimit: !<float> 280.000000
+      ballMass: 0.045000
+      sfxVolume: 0.280000
+      musicVolume: 0.100000
+      debugColliders: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input SceneObject pool {"hint":"Authored pool anchor"}'
+    - '// @input AssignableType_1 hud {"hint":"Passive score HUD"}'
+    - '// @input Asset.Material material {"hint":"Glossy plastic material"}'
+    - '// @input Asset.Matter matter {"hint":"Shared contact matter"}'
+    - '// @input float ballCount = 48 {"hint":"Balls per round", "widget":"slider", "min":12, "max":72, "step":1}'
+    - '// @input float width = 90 {"hint":"Pool interior width (cm)"}'
+    - '// @input float depth = 70 {"hint":"Pool interior depth (cm)"}'
+    - '// @input float rimHeight = 18 {"hint":"Rim height (cm)"}'
+    - '// @input float ballRadius = 5 {"hint":"Ball radius (cm)"}'
+    - '// @input float gravity = 650 {"hint":"Gravity magnitude cm/s²"}'
+    - '// @input float speedLimit = 280 {"hint":"Maximum physics speed cm/s"}'
+    - '// @input float ballMass = 0.045 {"hint":"Ball mass kg"}'
+    - '// @input float sfxVolume = 0.28 {"hint":"Collision sound volume"}'
+    - '// @input float musicVolume = 0.1 {"hint":"Music volume"}'
+    - '// @input bool debugColliders {"hint":"Show collision wireframes"}'
