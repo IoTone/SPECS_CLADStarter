@@ -1,0 +1,70 @@
+- !<AssetImportMetadata/0d819172-81c6-4ab2-8da2-8b69e95e279f>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> f1a0223a-5940-44a8-aedd-fcbe33a77d3b
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> f1a0223a-5940-44a8-aedd-fcbe33a77d3b
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> d25ebde7-54f8-4798-b9f8-b43548fea668
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/d25ebde7-54f8-4798-b9f8-b43548fea668>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: a883526f-d9d6-4344-b36d-f0538f5f034e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    headCamera: false
+    palmOffsetCm: false
+    shieldRadiusCm: false
+    shieldVisual: false
+    smoothing: false
+    untrackedFallback: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - headCamera: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      shieldVisual: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      shieldRadiusCm: !<float> 13.000000
+      palmOffsetCm: !<float> 5.000000
+      smoothing: 0.350000
+      untrackedFallback: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">DuckLaserShieldController – hand-held deflector shield</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">References</span>"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - "// @input SceneObject headCamera {\"hint\":\"The world camera (the player's head). The shield faces away from it.\"}"
+    - '// @input SceneObject shieldVisual {"hint":"Child SceneObject holding the shield mesh. It is hidden while no hand is tracked."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Settings</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float shieldRadiusCm = 13 {"hint":"Deflection radius in cm around the shield center. The mesh is about 22 x 26 cm.", "widget":"slider", "min":5, "max":30, "step":0.5}'
+    - '// @input float palmOffsetCm = 5 {"hint":"How far (cm) in front of the palm, away from your head, the shield floats", "widget":"slider", "min":0, "max":20, "step":0.5}'
+    - '// @input float smoothing = 0.35 {"hint":"Pose smoothing (0 = raw hand data, 0.9 = very smooth but laggy)", "widget":"slider", "min":0, "max":0.9, "step":0.05}'
+    - '// @input bool untrackedFallback {"hint":"When no hand is tracked (e.g. Lens Studio preview), hold the shield at a fixed spot in front of the camera instead of hiding it"}'
+    - '// @ui {"widget":"group_end"}'

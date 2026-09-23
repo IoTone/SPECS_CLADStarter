@@ -1,0 +1,63 @@
+- !<AssetImportMetadata/dc47e6d8-f1a1-4baf-938a-315a3c0946d5>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 8d4b515f-37cd-420d-a27a-e76e1327ae90
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 8d4b515f-37cd-420d-a27a-e76e1327ae90
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 407e0132-8194-4413-ba60-32aaa795829e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/407e0132-8194-4413-ba60-32aaa795829e>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: f495a895-c7b5-43be-b3f6-7cec40e5680e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    accentColor: false
+    dangerColor: false
+    panelWidthCm: false
+    titleText: false
+    viewingDistanceCm: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - titleText: LASER DUCK
+      panelWidthCm: !<float> 36.000000
+      viewingDistanceCm: !<float> 160.000000
+      accentColor: !<Vec4> {x: 1.000000, y: 0.860000, z: 0.100000, w: 1.000000}
+      dangerColor: !<Vec4> {x: 1.000000, y: 0.250000, z: 0.200000, w: 1.000000}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">DuckLaserHudUI – survival timer HUD + play button</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Settings</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input string titleText = "LASER DUCK" {"hint":"Title shown at the top of the HUD"}'
+    - '// @input float panelWidthCm = 36 {"hint":"Panel width in cm. The height follows the content.", "widget":"slider", "min":24, "max":60, "step":1}'
+    - '// @input float viewingDistanceCm = 160 {"hint":"Distance (cm) the HUD is read from. Text scales from the 110 cm Specs type scale by distance / 110.", "widget":"slider", "min":80, "max":250, "step":5}'
+    - '// @input vec4 accentColor = "{1.0, 0.86, 0.1, 1.0}" {"hint":"Accent color for the title and the Time / Best numbers (8-bit yellow)", "widget":"color"}'
+    - '// @input vec4 dangerColor = "{1.0, 0.25, 0.2, 1.0}" {"hint":"Status line color while you are in the danger zone or were shot down", "widget":"color"}'
+    - '// @ui {"widget":"group_end"}'

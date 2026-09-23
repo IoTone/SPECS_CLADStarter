@@ -1,0 +1,269 @@
+- !<AssetImportMetadata/dda240fe-a61f-4372-80a9-032f0b73c11e>
+  ImportedAssetIds:
+    .hidden/Voxel_beak_orange: !<reference> 2a3e9481-ec62-42a0-ab8e-cf956070ea38
+    26ba073d67b9d0dd: !<reference> 4e888ba5-522c-4d15-a161-5ad0f866e75c
+    2d955a23375d3dad: !<reference> 0bdfc9ec-d324-44df-8ff9-e03d8c9ca93d
+    657c264db4d38ac9: !<reference> 5dbe01b6-086e-4d59-bb88-5321fec1ece2
+    6bd48eba38aca2fd: !<reference> 89007d48-82f8-4380-83c0-3460ba37e6dc
+    7217eedb5555607d: !<reference> bf3a8857-3439-4632-a636-08c3b21b42a9
+    88ab437fd121cc69: !<reference> 086a904b-d80b-4588-8639-b575b9af7a45
+    88ca7c61848189e5: !<reference> 43d177ee-ffde-4aa2-a669-1c9ebc3a4acf
+    8c2caa740a28f941: !<reference> 16d3d2e3-f6f3-44bf-a65e-bef111f4d0d0
+    Materials/Voxel_beak_orange: !<reference> 45871bdf-1dca-45ed-967e-b622b5be993b
+    Materials/Voxel_beak_orange|Voxel_beak_orange|GraphPassInfo: !<reference> 566e83bf-0594-425e-a798-3ebe392ae7d2
+    Materials/Voxel_black: !<reference> c8590c82-903f-4052-ab81-93748b6814f6
+    Materials/Voxel_black|Voxel_black|GraphPassInfo: !<reference> ecafab5a-d65c-4370-95a2-1db16ce9881e
+    Materials/Voxel_duck_yellow: !<reference> e5e72f2e-8bc7-4bab-9f2a-5b843b00f6b0
+    Materials/Voxel_duck_yellow|Voxel_duck_yellow|GraphPassInfo: !<reference> 6dd42904-451e-4472-b1a8-dd42b7a1847e
+    Materials/Voxel_laser_red: !<reference> cb0ca6d2-7cad-4f12-a0fe-ddcbf431b326
+    Materials/Voxel_laser_red|Voxel_laser_red|GraphPassInfo: !<reference> 65476e03-0f5b-48b1-8b7f-fffdb13219f7
+    Materials/Voxel_white: !<reference> 10d7c866-ea1a-4ced-ac0b-44d90eeaa9b9
+    Materials/Voxel_white|Voxel_white|GraphPassInfo: !<reference> 1bcee1e8-6719-4a54-b187-38f002571abb
+    Materials/Voxel_wing_yellow: !<reference> a35fc50f-2494-460e-a606-4043ec1d0c43
+    Materials/Voxel_wing_yellow|Voxel_wing_yellow|GraphPassInfo: !<reference> 0dd37979-6fc4-4923-a70f-8cff6de8aa44
+    Meshes/RubberDuck: !<reference> 110f682e-75f4-4c0b-ad0b-3080f1f8301e
+    Meshes/RubberDuck1: !<reference> 4206974e-de78-4546-8f52-a3981373df5c
+    Meshes/RubberDuck2: !<reference> 205e701a-7fe3-4dd6-8fdf-58492e49c12f
+    Meshes/RubberDuck3: !<reference> 46b02f4e-9d1f-45e3-b05b-3036fefd8281
+    Meshes/RubberDuck4: !<reference> e0aeba86-2862-48a5-a05d-31b59e90d3b9
+    Meshes/RubberDuck5: !<reference> dd4dc072-7835-4668-b5c3-43229b3ce86a
+    Scene: !<reference> d8ba1d66-5835-4292-af17-e786251221af
+    c3f4a8f0606cd2dd: !<reference> b5394aaa-0007-416c-9ff5-50a3f85dea74
+    c56c324f28ef15c1: !<reference> 2c8f5e36-1c66-4e2a-aa5b-de37ad3a7d46
+    d02ca18cf68877f6: !<reference> edb76906-61ae-4bd1-b86c-4e4117e88c8e
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> d8ba1d66-5835-4292-af17-e786251221af
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 05fa1394-e358-4624-b8bf-ba2040058977
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    OptimizeMesh: true
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<ObjectPrefabAssetData/05fa1394-e358-4624-b8bf-ba2040058977>
+  Prototype: !<ObjectOwner/3f9b9a49-e941-4fbe-adb2-9f582e2b0dd6>
+    PackagePath: ""
+    objects:
+      - !<own> 4e888ba5-522c-4d15-5e9e-a52f079918a3
+- !<SceneObject/086a904b-d80b-4588-79c6-4a8a465085ba>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5dbe01b6-086e-4d59-4477-acde013e131d
+  Components:
+    []
+- !<RenderMeshVisual/0bdfc9ec-d324-44df-7006-1fc2736356c2>
+  PrefabRemaps:
+    []
+  Name: RubberDuck
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e5e72f2e-8bc7-4bab-9f2a-5b843b00f6b0
+  Mesh: !<reference> 4206974e-de78-4546-8f52-a3981373df5c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/16d3d2e3-f6f3-44bf-59a1-410eee0b2f2f>
+  PrefabRemaps:
+    []
+  Name: RubberDuck
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c8590c82-903f-4052-ab81-93748b6814f6
+  Mesh: !<reference> dd4dc072-7835-4668-b5c3-43229b3ce86a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/2c8f5e36-1c66-4e2a-55a4-21c852c582b9>
+  PrefabRemaps:
+    []
+  Name: RubberDuck
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> cb0ca6d2-7cad-4f12-a0fe-ddcbf431b326
+  Mesh: !<reference> 205e701a-7fe3-4dd6-8fdf-58492e49c12f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/43d177ee-ffde-4aa2-5996-e36143c5b530>
+  PrefabRemaps:
+    []
+  Name: RubberDuck
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 89007d48-82f8-4380-7c3f-cb9f45c81923
+    - !<own> 0bdfc9ec-d324-44df-7006-1fc2736356c2
+    - !<own> 2c8f5e36-1c66-4e2a-55a4-21c852c582b9
+    - !<own> edb76906-61ae-4bd1-4793-b1bee8177371
+    - !<own> bf3a8857-3439-4632-59c9-f73c4de4bd56
+    - !<own> 16d3d2e3-f6f3-44bf-59a1-410eee0b2f2f
+- !<SceneObject/4e888ba5-522c-4d15-5e9e-a52f079918a3>
+  PrefabRemaps:
+    []
+  Name: RubberDuck
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 086a904b-d80b-4588-79c6-4a8a465085ba
+  Components:
+    []
+- !<SceneObject/5dbe01b6-086e-4d59-4477-acde013e131d>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> b5394aaa-0007-416c-600a-af5c07a2158b
+  Components:
+    []
+- !<RenderMeshVisual/89007d48-82f8-4380-7c3f-cb9f45c81923>
+  PrefabRemaps:
+    []
+  Name: RubberDuck
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a35fc50f-2494-460e-a606-4043ec1d0c43
+  Mesh: !<reference> 110f682e-75f4-4c0b-ad0b-3080f1f8301e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b5394aaa-0007-416c-600a-af5c07a2158b>
+  PrefabRemaps:
+    []
+  Name: Root_Assembly
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 43d177ee-ffde-4aa2-5996-e36143c5b530
+  Components:
+    []
+- !<RenderMeshVisual/bf3a8857-3439-4632-59c9-f73c4de4bd56>
+  PrefabRemaps:
+    []
+  Name: RubberDuck
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 10d7c866-ea1a-4ced-ac0b-44d90eeaa9b9
+  Mesh: !<reference> e0aeba86-2862-48a5-a05d-31b59e90d3b9
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/edb76906-61ae-4bd1-4793-b1bee8177371>
+  PrefabRemaps:
+    []
+  Name: RubberDuck
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 45871bdf-1dca-45ed-967e-b622b5be993b
+  Mesh: !<reference> 46b02f4e-9d1f-45e3-b05b-3036fefd8281
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

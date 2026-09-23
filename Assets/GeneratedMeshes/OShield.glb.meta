@@ -1,0 +1,190 @@
+- !<AssetImportMetadata/28500538-af9e-4196-91eb-29cc50c0ae5a>
+  ImportedAssetIds:
+    .hidden/Voxel_shield_green: !<reference> 9419cb41-d46b-47b7-a266-7d36f88078ee
+    234a4593396ce6fe: !<reference> cdee34df-9293-4859-8fc2-ebe7de00c1a9
+    26ba073d67b9d0dd: !<reference> 15735fb7-622a-4b6c-b959-040f6afaf7cc
+    50b838757b778697: !<reference> 6c127756-59ec-4c4b-a1b3-c7e5a4ccff32
+    657c264db4d38ac9: !<reference> 582a4646-4810-4df7-b43c-817baab4efd9
+    88ab437fd121cc69: !<reference> 37e48d56-34dd-43a7-acec-d188b773f937
+    Materials/Voxel_shield_green: !<reference> 1a675d18-566b-4bd8-a7fc-f058d3acdae8
+    Materials/Voxel_shield_green|Voxel_shield_green|GraphPassInfo: !<reference> 706fc607-db75-490f-9002-903d1c508f39
+    Materials/Voxel_shield_yellow: !<reference> 9bd55c58-5559-499d-83aa-b4c183e1d109
+    Materials/Voxel_shield_yellow|Voxel_shield_yellow|GraphPassInfo: !<reference> a05cf8e8-8536-490c-9347-42de1fe7eabe
+    Meshes/OShield: !<reference> f2f4308c-b8bf-4958-86e4-6efdeafb7d09
+    Meshes/OShield1: !<reference> b98b4900-3085-4d17-9e3b-ea525108a73f
+    Scene: !<reference> 626f2ddc-d91b-4172-bb1d-f0c4b20b5691
+    c3f4a8f0606cd2dd: !<reference> c50d9a68-1bbd-4902-bb28-9de731476c37
+    df7f4b48cefc4e90: !<reference> b00e1d70-daf9-4d8d-ab69-d58850c1c72f
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> 626f2ddc-d91b-4172-bb1d-f0c4b20b5691
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 5986caeb-754c-4043-addf-af6655d508e8
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    OptimizeMesh: true
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<SceneObject/15735fb7-622a-4b6c-46a6-fbf095050833>
+  PrefabRemaps:
+    []
+  Name: OShield
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 37e48d56-34dd-43a7-5313-2e77488c06c8
+  Components:
+    []
+- !<SceneObject/37e48d56-34dd-43a7-5313-2e77488c06c8>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 582a4646-4810-4df7-4bc3-7e84554b1026
+  Components:
+    []
+- !<SceneObject/582a4646-4810-4df7-4bc3-7e84554b1026>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> c50d9a68-1bbd-4902-44d7-6218ceb893c8
+  Components:
+    []
+- !<ObjectPrefabAssetData/5986caeb-754c-4043-addf-af6655d508e8>
+  Prototype: !<ObjectOwner/0413d476-f25a-405b-b7ea-6d7a2ad8f4d5>
+    PackagePath: ""
+    objects:
+      - !<own> 15735fb7-622a-4b6c-46a6-fbf095050833
+- !<SceneObject/6c127756-59ec-4c4b-5e4c-381a5b3300cd>
+  PrefabRemaps:
+    []
+  Name: OShield
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b00e1d70-daf9-4d8d-5496-2a77af3e38d0
+    - !<own> cdee34df-9293-4859-703d-141821ff3e56
+    - !<own> 70deaa9b-3acd-4b18-742b-55ee57adb780
+- !<RenderMeshVisual/70deaa9b-3acd-4b18-742b-55ee57adb780>
+  PrefabRemaps:
+    []
+  Name: OShield
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8fb233f4-1055-451c-9466-75b10044f929
+  Mesh: !<reference> 8b94b76c-0f93-4d88-b534-676770de18ee
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/b00e1d70-daf9-4d8d-5496-2a77af3e38d0>
+  PrefabRemaps:
+    []
+  Name: OShield
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9bd55c58-5559-499d-83aa-b4c183e1d109
+  Mesh: !<reference> f2f4308c-b8bf-4958-86e4-6efdeafb7d09
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/c50d9a68-1bbd-4902-44d7-6218ceb893c8>
+  PrefabRemaps:
+    []
+  Name: Root_Assembly
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6c127756-59ec-4c4b-5e4c-381a5b3300cd
+  Components:
+    []
+- !<RenderMeshVisual/cdee34df-9293-4859-703d-141821ff3e56>
+  PrefabRemaps:
+    []
+  Name: OShield
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1a675d18-566b-4bd8-a7fc-f058d3acdae8
+  Mesh: !<reference> b98b4900-3085-4d17-9e3b-ea525108a73f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

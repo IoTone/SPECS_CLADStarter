@@ -1,0 +1,101 @@
+- !<AssetImportMetadata/302801cf-c8b1-4126-ab19-2ed03d1b434a>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 00d0c489-e923-405d-b3e0-0776d3132645
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 00d0c489-e923-405d-b3e0-0776d3132645
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 1c77eb91-82a7-4735-a4bf-4a477c052520
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/1c77eb91-82a7-4735-a4bf-4a477c052520>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 7822f3ff-187c-4cdd-b3dc-20bc13e63ce4
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    aimJitterCm: false
+    audio: false
+    debugIgnoreProximity: false
+    duck: false
+    headCamera: false
+    headHitRadiusCm: false
+    hud: false
+    lasers: false
+    maxLaserSpeedCmPerSec: false
+    minFireIntervalSec: false
+    rampSeconds: false
+    shield: false
+    startFireIntervalSec: false
+    startLaserSpeedCmPerSec: false
+    triggerDistanceCm: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - hud: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      duck: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      shield: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      lasers: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      audio: !<MappingBased.AssignableType_5> 00000000-0000-0000-0000-000000000000
+      headCamera: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      triggerDistanceCm: !<float> 120.000000
+      headHitRadiusCm: !<float> 12.000000
+      startFireIntervalSec: 1.400000
+      minFireIntervalSec: 0.450000
+      startLaserSpeedCmPerSec: !<float> 70.000000
+      maxLaserSpeedCmPerSec: !<float> 150.000000
+      rampSeconds: !<float> 45.000000
+      aimJitterCm: !<float> 5.000000
+      debugIgnoreProximity: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">DuckLaserMain – survive the laser duck</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">References</span>"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input AssignableType_1 hud {"hint":"HUD panel (time, best, status, play button)"}'
+    - '// @input AssignableType_2 duck {"hint":"Duck turret controller on DuckRoot"}'
+    - '// @input AssignableType_3 shield {"hint":"Hand-held shield controller on ShieldRoot"}'
+    - '// @input AssignableType_4 lasers {"hint":"Laser pool controller on the Lasers runtime root"}'
+    - '// @input AssignableType_5 audio {"hint":"Audio controller (music + SFX)"}'
+    - "// @input SceneObject headCamera {\"hint\":\"World camera (the player's head). Lasers aim here.\"}"
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Gameplay</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Gameplay"}'
+    - '// @input float triggerDistanceCm = 120 {"hint":"The duck fires when your head is closer than this (cm). The survival timer only runs inside this zone.", "widget":"slider", "min":40, "max":300, "step":5}'
+    - '// @input float headHitRadiusCm = 12 {"hint":"Radius (cm) around your head that counts as a hit", "widget":"slider", "min":4, "max":30, "step":0.5}'
+    - '// @input float startFireIntervalSec = 1.4 {"hint":"Seconds between shots at the start of a run", "widget":"slider", "min":0.2, "max":4, "step":0.05}'
+    - '// @input float minFireIntervalSec = 0.45 {"hint":"Fastest firing interval (seconds), reached after the ramp time", "widget":"slider", "min":0.1, "max":2, "step":0.05}'
+    - '// @input float startLaserSpeedCmPerSec = 70 {"hint":"Laser speed (cm/s) at the start of a run", "widget":"slider", "min":20, "max":300, "step":5}'
+    - '// @input float maxLaserSpeedCmPerSec = 150 {"hint":"Top laser speed (cm/s), reached after the ramp time", "widget":"slider", "min":20, "max":400, "step":5}'
+    - '// @input float rampSeconds = 45 {"hint":"Seconds of survival until the duck reaches max fire rate and laser speed", "widget":"slider", "min":5, "max":180, "step":5}'
+    - "// @input float aimJitterCm = 5 {\"hint\":\"Random aim offset (cm) around your head, so the shots aren't perfectly predictable\", \"widget\":\"slider\", \"min\":0, \"max\":20, \"step\":0.5}"
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Debug</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Debug"}'
+    - "// @input bool debugIgnoreProximity {\"hint\":\"Treat the player as always inside the danger zone (handy in the Lens Studio preview, where you can't walk)\"}"
+    - '// @ui {"widget":"group_end"}'

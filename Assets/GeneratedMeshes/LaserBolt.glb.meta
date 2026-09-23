@@ -1,0 +1,144 @@
+- !<AssetImportMetadata/265d138b-f2d4-4d65-afbd-7d7101e2edbe>
+  ImportedAssetIds:
+    .hidden/Voxel_laser_red: !<reference> 4d9f3e81-43a8-46f8-8fcb-2398f50e3714
+    1214d4075cb42587: !<reference> e027f178-a4ec-4dac-9f62-2725b6c2bb32
+    26ba073d67b9d0dd: !<reference> 7ffee2b5-de94-42d4-8d4b-77e4dbe37631
+    58ea2d8e6ccf60df: !<reference> d8e7c518-4aa8-4a9f-90a1-22c89ff09bc6
+    657c264db4d38ac9: !<reference> 77d25640-4af7-4ae3-aaae-b6f357592447
+    88ab437fd121cc69: !<reference> 3047c2c6-7705-4806-80f1-9161171e31e6
+    Materials/Voxel_laser_red: !<reference> 81cad32d-f61b-4d95-8e08-8734716f36ab
+    Materials/Voxel_laser_red|Voxel_laser_red|GraphPassInfo: !<reference> 267c62c7-c5b5-4f25-b99c-5688b0dec880
+    Meshes/LaserBolt: !<reference> 0081e724-de39-43d1-8ea2-ea1d385e2ad7
+    Scene: !<reference> 012e5cc3-32fa-4593-84b8-0c0c627453b2
+    c3f4a8f0606cd2dd: !<reference> b3899e12-cfef-4d65-be83-13dbe3b2e96b
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> 012e5cc3-32fa-4593-84b8-0c0c627453b2
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> afdd22e5-0393-46b9-a85a-009f6a7179c6
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    OptimizeMesh: true
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<SceneObject/3047c2c6-7705-4806-7f0e-6e9ee8e1ce19>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 77d25640-4af7-4ae3-5551-490ca8a6dbb8
+  Components:
+    []
+- !<SceneObject/77d25640-4af7-4ae3-5551-490ca8a6dbb8>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> b3899e12-cfef-4d65-417c-ec241c4d1694
+  Components:
+    []
+- !<SceneObject/7ffee2b5-de94-42d4-72b4-881b241c89ce>
+  PrefabRemaps:
+    []
+  Name: LaserBolt
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3047c2c6-7705-4806-7f0e-6e9ee8e1ce19
+  Components:
+    []
+- !<ObjectPrefabAssetData/afdd22e5-0393-46b9-a85a-009f6a7179c6>
+  Prototype: !<ObjectOwner/a938b67f-2e07-44e1-89cb-3a815d8f569b>
+    PackagePath: ""
+    objects:
+      - !<own> 7ffee2b5-de94-42d4-72b4-881b241c89ce
+- !<SceneObject/b3899e12-cfef-4d65-417c-ec241c4d1694>
+  PrefabRemaps:
+    []
+  Name: Root_Assembly
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> e027f178-a4ec-4dac-609d-d8da493d44cd
+  Components:
+    []
+- !<RenderMeshVisual/d8e7c518-4aa8-4a9f-6f5e-dd37600f6439>
+  PrefabRemaps:
+    []
+  Name: LaserBolt
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 81cad32d-f61b-4d95-8e08-8734716f36ab
+  Mesh: !<reference> 0081e724-de39-43d1-8ea2-ea1d385e2ad7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/e027f178-a4ec-4dac-609d-d8da493d44cd>
+  PrefabRemaps:
+    []
+  Name: LaserBolt
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d8e7c518-4aa8-4a9f-6f5e-dd37600f6439

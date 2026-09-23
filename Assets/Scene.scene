@@ -4,6 +4,10 @@
     - !<own> 00000000-0000-0065-0000-000000000064
     - !<own> 0005641c-028d-459a-0000-000000014b4d
     - !<own> f5d74682-203a-4970-81ea-9fa7b88c96bb
+    - !<own> 6728a3e9-e464-4d67-b5de-29db555710bd
+    - !<own> 94852bb0-d79a-445a-a633-9d583bf4dcdc
+    - !<own> 2fcbb5d5-398b-404d-a32e-03283e430102
+    - !<own> 101f66a7-253b-47e5-8773-cfd6f11b1ae2
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       - id: 1
@@ -191,6 +195,26 @@
     - !<own> 276368e3-f687-4cc6-947d-24de3a78c9af
   Components:
     []
+- !<RenderMeshVisual/039554ad-3988-4d77-886f-142e34cc1fed>
+  PrefabRemaps:
+    []
+  Name: RubberDuck
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> cb0ca6d2-7cad-4f12-a0fe-ddcbf431b326
+  Mesh: !<reference> 205e701a-7fe3-4dd6-8fdf-58492e49c12f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
 - !<SceneObject/0451d993-a1f7-464e-9b69-32c0d9af8ed7>
   PrefabRemaps:
     []
@@ -206,6 +230,22 @@
     []
   Components:
     - !<own> 35501b69-b651-41e6-9b64-72a252df8105
+- !<SceneObject/04960e3c-173c-4831-877c-e82bf3def9ad>
+  PrefabRemaps:
+    []
+  Name: OShield
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fe20673d-83fc-42c4-b054-edd9e12d23fb
+    - !<own> b55de514-a048-4dc7-8d0c-3eeccba7828e
 - !<SceneObject/05147ea1-cb6b-4629-9484-199a4aa4d92a>
   PrefabRemaps:
     []
@@ -411,6 +451,26 @@
     - !<own> bbcddeb1-2c47-482e-861a-4f2d74fda27a
   Components:
     []
+- !<RenderMeshVisual/0f42bb40-ca22-459f-bac4-2fe2ec5cdddf>
+  PrefabRemaps:
+    []
+  Name: RubberDuck
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 10d7c866-ea1a-4ced-ac0b-44d90eeaa9b9
+  Mesh: !<reference> e0aeba86-2862-48a5-a05d-31b59e90d3b9
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
 - !<SceneObject/0f983d21-20bc-4d89-a991-fbb95bacbd64>
   PrefabRemaps:
     []
@@ -426,6 +486,21 @@
     - !<own> 9e373d68-993f-4c8f-83a0-6644f1d9fefd
   Components:
     []
+- !<SceneObject/101f66a7-253b-47e5-8773-cfd6f11b1ae2>
+  PrefabRemaps:
+    []
+  Name: LEAF Plugin Bridge
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> aa3450a5-df25-4d1f-95de-5801a874510d
 - !<SceneObject/10f60da2-2196-40ad-9e72-8a6bc7e86f35>
   PrefabRemaps:
     []
@@ -496,6 +571,41 @@
     HasSegmentScaleCompensation: false
   Children:
     - !<own> a6af4948-9adc-4052-ae22-db902dd2764e
+  Components:
+    []
+- !<RenderMeshVisual/152243c0-b18f-4e3b-8802-c20da6ae0d99>
+  PrefabRemaps:
+    []
+  Name: RubberDuck
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c8590c82-903f-4052-ab81-93748b6814f6
+  Mesh: !<reference> dd4dc072-7835-4668-b5c3-43229b3ce86a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/175c5423-0d04-42a3-bdad-507d13031904>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> e91d3692-6acb-4b13-ba50-728ff98151eb
   Components:
     []
 - !<SceneObject/181c239f-175e-4912-94fc-d37a2599b2d6>
@@ -695,6 +805,21 @@
     ring-3_end_end_end: !<reference> b93dfa60-41bd-4999-ac0f-4b2f1df2bdaf
     thumb-3_end_end_end_end: !<reference> 08e3cc22-f2e1-49fb-9ddc-145fe6547ce3
     pinky-3_end_end: !<reference> d08269e3-acd4-4156-b5b9-477ca259611d
+- !<SceneObject/2d8ef976-4a94-4333-8f5a-20e6abb190b2>
+  PrefabRemaps:
+    []
+  Name: DuckLaserHUD
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 26.000000, z: -160.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 390ae440-94a5-425f-847d-4dc59c3bea9e
 - !<SceneObject/2dae2a27-8ce6-466a-8bff-622195c1b3a8>
   PrefabRemaps:
     []
@@ -710,6 +835,21 @@
     - !<own> a7da4af4-3d84-4acd-a31e-920a56b4c5c8
   Components:
     []
+- !<SceneObject/2fcbb5d5-398b-404d-a32e-03283e430102>
+  PrefabRemaps:
+    []
+  Name: LeafIndex
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 68c18282-5fa8-4afd-ae9c-8606bb333680
 - !<RenderMeshVisual/335c5f8b-2917-49e8-8af5-220696e9bc09>
   PrefabRemaps:
     []
@@ -796,6 +936,30 @@
     - !<own> 4051028a-c608-4a97-b3d5-1a3912a7c007
   Components:
     []
+- !<ScriptComponent/390ae440-94a5-425f-847d-4dc59c3bea9e>
+  PrefabRemaps:
+    []
+  Name: DuckLaserHudUI
+  Enabled: true
+  ScriptAsset: !<reference> 8d4b515f-37cd-420d-a27a-e76e1327ae90
+  ScriptInputsDefault:
+    titleText: true
+    panelWidthCm: true
+    viewingDistanceCm: true
+    accentColor: true
+    dangerColor: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      titleText: LASER DUCK
+      panelWidthCm: !<float> 36.000000
+      viewingDistanceCm: !<float> 160.000000
+      accentColor: !<Vec4> {x: 1.000000, y: 0.860000, z: 0.100000, w: 1.000000}
+      dangerColor: !<Vec4> {x: 1.000000, y: 0.250000, z: 0.200000, w: 1.000000}
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/3a794764-c758-4d72-9d89-bf3ed978113f>
   PrefabRemaps:
     []
@@ -811,6 +975,21 @@
     - !<own> 264571d0-f879-411b-8deb-ff6d9921317f
   Components:
     []
+- !<SceneObject/3ae8993a-aede-445b-bfd5-8a2974b0473c>
+  PrefabRemaps:
+    []
+  Name: ShieldRoot
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 12.000000, y: -20.000000, z: -50.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3ccdb913-0f93-405a-918f-c079e3b5cb0d
+  Components:
+    - !<own> e117fa53-8106-4fcf-9d80-04c1bf885f08
 - !<SceneObject/3b4f5057-b516-4d3b-9c8d-14c81af2f505>
   PrefabRemaps:
     []
@@ -826,6 +1005,21 @@
     - !<own> 54130007-65c1-48d3-b9df-0866d8112e01
   Components:
     []
+- !<SceneObject/3ccdb913-0f93-405a-918f-c079e3b5cb0d>
+  PrefabRemaps:
+    []
+  Name: ShieldVisual
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -13.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7f45135c-8273-4790-8959-0c79347837d4
+  Components:
+    []
 - !<SceneObject/3de2c7ea-1525-465a-9056-68565a4014a7>
   PrefabRemaps:
     []
@@ -839,6 +1033,21 @@
     HasSegmentScaleCompensation: false
   Children:
     - !<own> 988c408a-99dc-47e6-b7c4-efbf4bf8dc3c
+  Components:
+    []
+- !<SceneObject/400353cd-8dfe-4ad9-9ff8-b040c4e5a352>
+  PrefabRemaps:
+    []
+  Name: Root_Assembly
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 180.000000, y: 0.000000, z: 180.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> efd91d91-3ed8-4dc1-b0df-a693995d3186
   Components:
     []
 - !<SceneObject/4051028a-c608-4a97-b3d5-1a3912a7c007>
@@ -916,6 +1125,31 @@
     - !<own> 8fe2a532-9bf3-4cde-b598-04ce5470718d
   Components:
     []
+- !<SceneObject/4ab00c10-9f6e-495c-9f9b-7c89ba5719d8>
+  PrefabRemaps:
+    - 039554ad-3988-4d77-886f-142e34cc1fed: 2c8f5e36-1c66-4e2a-55a4-21c852c582b9
+    - 0f42bb40-ca22-459f-bac4-2fe2ec5cdddf: bf3a8857-3439-4632-59c9-f73c4de4bd56
+    - 152243c0-b18f-4e3b-8802-c20da6ae0d99: 16d3d2e3-f6f3-44bf-59a1-410eee0b2f2f
+    - 400353cd-8dfe-4ad9-9ff8-b040c4e5a352: b5394aaa-0007-416c-600a-af5c07a2158b
+    - 4ab00c10-9f6e-495c-9f9b-7c89ba5719d8: 4e888ba5-522c-4d15-5e9e-a52f079918a3
+    - 6a1c7e73-a78a-4217-af96-d9ae4e2afec3: 086a904b-d80b-4588-79c6-4a8a465085ba
+    - 7b04a856-d308-4c58-b7d9-977079b4c8f0: 0bdfc9ec-d324-44df-7006-1fc2736356c2
+    - 81b45196-a527-4dad-a0a2-c17e2199306c: edb76906-61ae-4bd1-4793-b1bee8177371
+    - e1f3b953-fba6-46e8-a0eb-4b68a1938d76: 89007d48-82f8-4380-7c3f-cb9f45c81923
+    - efd91d91-3ed8-4dc1-b0df-a693995d3186: 43d177ee-ffde-4aa2-5996-e36143c5b530
+    - f99c6792-987d-4e0d-982b-09d07cf76a7b: 5dbe01b6-086e-4d59-4477-acde013e131d
+  Name: RubberDuck
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6a1c7e73-a78a-4217-af96-d9ae4e2afec3
+  Components:
+    []
 - !<SceneObject/4c195c04-c397-454e-bd08-3485f37d84fe>
   PrefabRemaps:
     []
@@ -991,6 +1225,31 @@
     - !<own> bf2095b6-c6f8-48c8-b840-e0a6cec0dc99
   Components:
     []
+- !<ScriptComponent/5950748b-5395-4ef0-85ab-0f72304076ec>
+  PrefabRemaps:
+    []
+  Name: DuckLaserDuckController
+  Enabled: true
+  ScriptAsset: !<reference> 4af47ea6-70fe-4afd-8a54-64e2f22026e2
+  ScriptInputsDefault:
+    turnSpeed: true
+    bobHeightCm: true
+    bobSpeed: true
+    alertWobbleDeg: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bobRoot: !<reference.SceneObject> a93bc6db-f578-4fcf-b02f-48ae75e28013
+      leftEyeMuzzle: !<reference.SceneObject> c492aec3-bdde-4a5a-8ea9-b86e2ec696b3
+      rightEyeMuzzle: !<reference.SceneObject> 92512de9-b03c-4205-81ec-ae4ffc9d7b66
+      turnSpeed: !<float> 6.000000
+      bobHeightCm: 1.500000
+      bobSpeed: 0.800000
+      alertWobbleDeg: !<float> 8.000000
+  ScriptTypes:
+    "":
+      {}
 - !<ScriptComponent/5f153ad7-2baa-4fd9-a298-0dcfad86da3b>
   PrefabRemaps:
     []
@@ -1141,6 +1400,54 @@
     - !<own> 80574bd1-697b-4bb5-b9ce-13b340146d82
   Components:
     - !<own> ccf4d3bc-d3c2-4580-b9c5-62f164ef7eef
+- !<SceneObject/6728a3e9-e464-4d67-b5de-29db555710bd>
+  PrefabRemaps:
+    []
+  Name: DuckLaserGame
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> b8edb0ab-5795-4cc0-8ca6-a895c7246dc1
+    - !<own> a471debd-0f90-45d5-89a4-768179d2410d
+    - !<own> df791ea6-1989-4f31-9207-b43e235bda28
+  Components:
+    - !<own> 873e2771-67d7-4860-96a0-ec259e9f2248
+- !<ScriptComponent/68c18282-5fa8-4afd-ae9c-8606bb333680>
+  PrefabRemaps:
+    []
+  Name: LeafIndex
+  Enabled: true
+  ScriptAsset: !<reference> 4e782786-c274-40dd-9ce2-9daaff427c04
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/6a1c7e73-a78a-4217-af96-d9ae4e2afec3>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> f99c6792-987d-4e0d-982b-09d07cf76a7b
+  Components:
+    []
 - !<SceneObject/6a7a67db-5675-49bb-8f31-ba0588e3cffc>
   PrefabRemaps:
     []
@@ -1276,6 +1583,22 @@
     - !<own> 241be3d8-6f45-47d7-8b71-53778e375dc2
   Components:
     []
+- !<ScriptComponent/765cfd20-3454-4d96-bb75-4201848c9e74>
+  PrefabRemaps:
+    []
+  Name: AgentInspectScript
+  Enabled: true
+  ScriptAsset: !<reference> 0b25079c-f5bf-4c6d-96c4-f43b89dfa213
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/77a79970-63f4-4c7c-984a-539d2ef0c92a>
   PrefabRemaps:
     []
@@ -1321,6 +1644,26 @@
     - !<own> 52ecefe4-5642-445a-ad16-52ce818076bc
   Components:
     []
+- !<RenderMeshVisual/7b04a856-d308-4c58-b7d9-977079b4c8f0>
+  PrefabRemaps:
+    []
+  Name: RubberDuck
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e5e72f2e-8bc7-4bab-9f2a-5b843b00f6b0
+  Mesh: !<reference> 4206974e-de78-4546-8f52-a3981373df5c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
 - !<SceneObject/7b49000e-c7d9-48c6-8abb-b6c8abcd4655>
   PrefabRemaps:
     []
@@ -1353,6 +1696,28 @@
     HasSegmentScaleCompensation: false
   Children:
     - !<own> 58ef319f-850e-40dd-8295-e6dc36ab4854
+  Components:
+    []
+- !<SceneObject/7f45135c-8273-4790-8959-0c79347837d4>
+  PrefabRemaps:
+    - 04960e3c-173c-4831-877c-e82bf3def9ad: 6c127756-59ec-4c4b-5e4c-381a5b3300cd
+    - 175c5423-0d04-42a3-bdad-507d13031904: 37e48d56-34dd-43a7-5313-2e77488c06c8
+    - 7f45135c-8273-4790-8959-0c79347837d4: 15735fb7-622a-4b6c-46a6-fbf095050833
+    - a1e3615b-cb57-484b-9035-048e7b55e70c: 70deaa9b-3acd-4b18-742b-55ee57adb780
+    - b55de514-a048-4dc7-8d0c-3eeccba7828e: cdee34df-9293-4859-703d-141821ff3e56
+    - ca2ec4fa-850b-44e4-9fef-dcd9726821af: c50d9a68-1bbd-4902-44d7-6218ceb893c8
+    - e91d3692-6acb-4b13-ba50-728ff98151eb: 582a4646-4810-4df7-4bc3-7e84554b1026
+    - fe20673d-83fc-42c4-b054-edd9e12d23fb: b00e1d70-daf9-4d8d-5496-2a77af3e38d0
+  Name: OShield
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 175c5423-0d04-42a3-bdad-507d13031904
   Components:
     []
 - !<SceneObject/7fb3591f-54a2-4aee-b07d-fd10d56538c8>
@@ -1400,6 +1765,26 @@
     []
   Components:
     - !<own> 335c5f8b-2917-49e8-8af5-220696e9bc09
+- !<RenderMeshVisual/81b45196-a527-4dad-a0a2-c17e2199306c>
+  PrefabRemaps:
+    []
+  Name: RubberDuck
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 45871bdf-1dca-45ed-967e-b622b5be993b
+  Mesh: !<reference> 46b02f4e-9d1f-45e3-b05b-3036fefd8281
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
 - !<SceneObject/82a4b4e8-283b-441c-8b94-9fdc50c958f2>
   PrefabRemaps:
     []
@@ -1460,6 +1845,44 @@
     - !<own> 6c1f70d7-86d0-4972-b203-29780f8798e6
   Components:
     []
+- !<ScriptComponent/873e2771-67d7-4860-96a0-ec259e9f2248>
+  PrefabRemaps:
+    []
+  Name: DuckLaserMain
+  Enabled: true
+  ScriptAsset: !<reference> 00d0c489-e923-405d-b3e0-0776d3132645
+  ScriptInputsDefault:
+    triggerDistanceCm: true
+    headHitRadiusCm: true
+    startFireIntervalSec: true
+    minFireIntervalSec: true
+    startLaserSpeedCmPerSec: true
+    maxLaserSpeedCmPerSec: true
+    rampSeconds: true
+    aimJitterCm: true
+    debugIgnoreProximity: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      hud: !<MappingBased.AssignableType_1> 390ae440-94a5-425f-847d-4dc59c3bea9e
+      duck: !<MappingBased.AssignableType_2> 5950748b-5395-4ef0-85ab-0f72304076ec
+      shield: !<MappingBased.AssignableType_3> e117fa53-8106-4fcf-9d80-04c1bf885f08
+      lasers: !<MappingBased.AssignableType_4> b799d97c-b26c-4f04-8bf3-19697536afaf
+      audio: !<MappingBased.AssignableType_5> db8c85d5-3306-4fc6-a0c7-78dffe26ed08
+      headCamera: !<reference.SceneObject> 00000000-0000-0065-0000-000000000064
+      triggerDistanceCm: !<float> 120.000000
+      headHitRadiusCm: !<float> 12.000000
+      startFireIntervalSec: 1.400000
+      minFireIntervalSec: 0.450000
+      startLaserSpeedCmPerSec: !<float> 70.000000
+      maxLaserSpeedCmPerSec: !<float> 150.000000
+      rampSeconds: !<float> 45.000000
+      aimJitterCm: !<float> 5.000000
+      debugIgnoreProximity: false
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/879ce45b-bd5e-40ff-a3fe-d821523427e4>
   PrefabRemaps:
     []
@@ -1546,6 +1969,36 @@
     - !<own> 8cb3dd13-6ebf-41e6-9a23-94a69dd96f87
   Components:
     []
+- !<SceneObject/92512de9-b03c-4205-81ec-ae4ffc9d7b66>
+  PrefabRemaps:
+    []
+  Name: RightEyeMuzzle
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 4.000000, y: 24.000000, z: -13.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/92d6edc2-0972-47d4-bfdb-608a1cf9ffc1>
+  PrefabRemaps:
+    []
+  Name: DuckRoot
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -25.000000, z: -160.000000}
+    Rotation: {x: 0.000000, y: 180.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a93bc6db-f578-4fcf-b02f-48ae75e28013
+  Components:
+    - !<own> 5950748b-5395-4ef0-85ab-0f72304076ec
 - !<SceneObject/9468c53c-f76f-49b7-8a49-b5ec6af1c5a3>
   PrefabRemaps:
     []
@@ -1562,6 +2015,36 @@
     - !<own> e9454e66-5d09-4a8a-bcd7-dea762326a48
   Components:
     []
+- !<SceneObject/94852bb0-d79a-445a-a633-9d583bf4dcdc>
+  PrefabRemaps:
+    []
+  Name: AiPreviewAgent Handler
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 765cfd20-3454-4d96-bb75-4201848c9e74
+- !<SceneObject/9715df4d-ae7b-4a9d-b0ea-5e437bd25f7c>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> db8c85d5-3306-4fc6-a0c7-78dffe26ed08
 - !<SceneObject/988c408a-99dc-47e6-b7c4-efbf4bf8dc3c>
   PrefabRemaps:
     []
@@ -1636,6 +2119,22 @@
     HasSegmentScaleCompensation: false
   Children:
     - !<own> 46ea93d6-d161-4453-9064-6ac11e1d6523
+  Components:
+    []
+- !<SceneObject/a471debd-0f90-45d5-89a4-768179d2410d>
+  PrefabRemaps:
+    []
+  Name: Content
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 92d6edc2-0972-47d4-bfdb-608a1cf9ffc1
+    - !<own> 3ae8993a-aede-445b-bfd5-8a2974b0473c
   Components:
     []
 - !<SceneObject/a4b1ce71-4840-4493-bc52-58f3c13933e1>
@@ -1747,6 +2246,23 @@
     - !<own> 0c355300-e635-47c1-a8c3-5ddef30b8824
   Components:
     []
+- !<SceneObject/a93bc6db-f578-4fcf-b02f-48ae75e28013>
+  PrefabRemaps:
+    []
+  Name: DuckVisual
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4ab00c10-9f6e-495c-9f9b-7c89ba5719d8
+    - !<own> c492aec3-bdde-4a5a-8ea9-b86e2ec696b3
+    - !<own> 92512de9-b03c-4205-81ec-ae4ffc9d7b66
+  Components:
+    []
 - !<SceneObject/a98a7d22-28b9-4357-97cd-1486e721ac5d>
   PrefabRemaps:
     []
@@ -1762,6 +2278,22 @@
     []
   Components:
     - !<own> 11c4bb09-7c38-4023-9802-74f9f28709a9
+- !<ScriptComponent/aa3450a5-df25-4d1f-95de-5801a874510d>
+  PrefabRemaps:
+    []
+  Name: MessagingBridge
+  Enabled: true
+  ScriptAsset: !<reference> 9aa407db-2872-4afc-a162-cf7faf2a0f29
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/abfa4c71-3560-46f0-9471-90e212f21185>
   PrefabRemaps:
     []
@@ -1837,6 +2369,26 @@
     - !<own> fcc185fc-4e88-4e9e-9c71-40bd83b1b0ed
   Components:
     []
+- !<RenderMeshVisual/b55de514-a048-4dc7-8d0c-3eeccba7828e>
+  PrefabRemaps:
+    []
+  Name: OShield
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1a675d18-566b-4bd8-a7fc-f058d3acdae8
+  Mesh: !<reference> b98b4900-3085-4d17-9e3b-ea525108a73f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
 - !<SceneObject/b786dabc-29e4-4cfa-8a84-f39604ffcbdd>
   PrefabRemaps:
     []
@@ -1852,6 +2404,27 @@
     []
   Components:
     []
+- !<ScriptComponent/b799d97c-b26c-4f04-8bf3-19697536afaf>
+  PrefabRemaps:
+    []
+  Name: DuckLaserLaserController
+  Enabled: true
+  ScriptAsset: !<reference> c26ffec3-b8ae-4c2c-aab1-f42971c2984d
+  ScriptInputsDefault:
+    poolSize: true
+    laserLifetimeSec: true
+    deflectSpeedMultiplier: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      laserPrefab: !<reference.ObjectPrefab> 012e5cc3-32fa-4593-84b8-0c0c627453b2
+      poolSize: !<float> 24.000000
+      laserLifetimeSec: !<float> 4.000000
+      deflectSpeedMultiplier: 1.300000
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/b859e31c-4c76-46bd-bd6a-042228e52728>
   PrefabRemaps:
     []
@@ -1865,6 +2438,21 @@
     HasSegmentScaleCompensation: false
   Children:
     - !<own> 44097eaf-01da-45fb-8973-3bd8172618de
+  Components:
+    []
+- !<SceneObject/b8edb0ab-5795-4cc0-8ca6-a895c7246dc1>
+  PrefabRemaps:
+    []
+  Name: UI
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2d8ef976-4a94-4333-8f5a-20e6abb190b2
   Components:
     []
 - !<SceneObject/b93dfa60-41bd-4999-ac0f-4b2f1df2bdaf>
@@ -1957,6 +2545,21 @@
     []
   Components:
     []
+- !<SceneObject/c492aec3-bdde-4a5a-8ea9-b86e2ec696b3>
+  PrefabRemaps:
+    []
+  Name: LeftEyeMuzzle
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -4.000000, y: 24.000000, z: -13.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
 - !<ScriptComponent/c8e031d3-a8a1-468a-a419-427f8556de4c>
   PrefabRemaps:
     []
@@ -1985,6 +2588,21 @@
   ScriptTypes:
     "":
       {}
+- !<SceneObject/ca2ec4fa-850b-44e4-9fef-dcd9726821af>
+  PrefabRemaps:
+    []
+  Name: Root_Assembly
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 180.000000, y: 0.000000, z: 180.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 04960e3c-173c-4831-877c-e82bf3def9ad
+  Components:
+    []
 - !<SceneObject/ca40734c-262f-48d3-affa-9f99cd2940f7>
   PrefabRemaps:
     []
@@ -2000,6 +2618,21 @@
     - !<own> 0a0e1d78-8246-4f5b-ab1a-fdc51837956d
   Components:
     []
+- !<SceneObject/cc0fe804-260f-4dd7-87c2-47bd5f8c27cd>
+  PrefabRemaps:
+    []
+  Name: Lasers
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b799d97c-b26c-4f04-8bf3-19697536afaf
 - !<Skin/ccf4d3bc-d3c2-4580-b9c5-62f164ef7eef>
   PrefabRemaps:
     []
@@ -2210,6 +2843,29 @@
     - !<own> f74a6bbb-4fba-4d8b-9b4e-64dd1c3e9ac3
   Components:
     []
+- !<ScriptComponent/db8c85d5-3306-4fc6-a0c7-78dffe26ed08>
+  PrefabRemaps:
+    []
+  Name: DuckLaserAudioController
+  Enabled: true
+  ScriptAsset: !<reference> 89db9c21-a535-4988-8e9d-93beef5cd313
+  ScriptInputsDefault:
+    musicVolume: true
+    sfxVolume: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      musicTrack: !<reference.AudioTrackAsset> f9baf9c3-9aa8-4712-b26b-b54d6ab16bbe
+      laserShotSfx: !<reference.AudioTrackAsset> 60b684bd-d5d8-40a5-86ae-8d1515c64e99
+      deflectSfx: !<reference.AudioTrackAsset> e0f20ae8-d0a9-4956-9def-c7d8c7001766
+      hitSfx: !<reference.AudioTrackAsset> 34bd00d8-4d53-44d5-8fbd-04a268bb1609
+      squeakSfx: !<reference.AudioTrackAsset> 822ec8f7-4508-4279-b858-8f101a430b59
+      musicVolume: 0.400000
+      sfxVolume: 0.900000
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/dcc36a33-e23d-48f3-8e96-f9c9fd3cd030>
   PrefabRemaps:
     []
@@ -2240,6 +2896,22 @@
     - !<own> d4a9c5e3-fe96-4824-9b20-59f5ad39eabd
   Components:
     []
+- !<SceneObject/df791ea6-1989-4f31-9207-b43e235bda28>
+  PrefabRemaps:
+    []
+  Name: Runtime
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> cc0fe804-260f-4dd7-87c2-47bd5f8c27cd
+    - !<own> 9715df4d-ae7b-4a9d-b0ea-5e437bd25f7c
+  Components:
+    []
 - !<RenderMeshVisual/e1031f7e-3474-489f-a529-282f7192f812>
   PrefabRemaps:
     []
@@ -2256,6 +2928,50 @@
     - !<reference> c72f8b22-b510-4487-9fd2-7506cd1440ce
   Mesh: !<reference> 257ad973-6ee4-4da4-8049-1dd2427f16ca
   Skin: !<reference> 28e05826-1521-46fa-a54c-80f2957ec80c
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/e117fa53-8106-4fcf-9d80-04c1bf885f08>
+  PrefabRemaps:
+    []
+  Name: DuckLaserShieldController
+  Enabled: true
+  ScriptAsset: !<reference> f1a0223a-5940-44a8-aedd-fcbe33a77d3b
+  ScriptInputsDefault:
+    shieldRadiusCm: true
+    palmOffsetCm: true
+    smoothing: true
+    untrackedFallback: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      headCamera: !<reference.SceneObject> 00000000-0000-0065-0000-000000000064
+      shieldVisual: !<reference.SceneObject> 3ccdb913-0f93-405a-918f-c079e3b5cb0d
+      shieldRadiusCm: !<float> 13.000000
+      palmOffsetCm: !<float> 5.000000
+      smoothing: 0.350000
+      untrackedFallback: false
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/e1f3b953-fba6-46e8-a0eb-4b68a1938d76>
+  PrefabRemaps:
+    []
+  Name: RubberDuck
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a35fc50f-2494-460e-a606-4043ec1d0c43
+  Mesh: !<reference> 110f682e-75f4-4c0b-ad0b-3080f1f8301e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
   BlendNormals: false
   BlendShapes:
@@ -2315,6 +3031,21 @@
     - !<own> 0f983d21-20bc-4d89-a991-fbb95bacbd64
   Components:
     []
+- !<SceneObject/e91d3692-6acb-4b13-ba50-728ff98151eb>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> ca2ec4fa-850b-44e4-9fef-dcd9726821af
+  Components:
+    []
 - !<SceneObject/e9454e66-5d09-4a8a-bcd7-dea762326a48>
   PrefabRemaps:
     []
@@ -2353,6 +3084,26 @@
     Fingers_length: 0.000000
     Thumb_inflate: 0.000000
     Thumb_length: 0.000000
+- !<SceneObject/efd91d91-3ed8-4dc1-b0df-a693995d3186>
+  PrefabRemaps:
+    []
+  Name: RubberDuck
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e1f3b953-fba6-46e8-a0eb-4b68a1938d76
+    - !<own> 7b04a856-d308-4c58-b7d9-977079b4c8f0
+    - !<own> 039554ad-3988-4d77-886f-142e34cc1fed
+    - !<own> 81b45196-a527-4dad-a0a2-c17e2199306c
+    - !<own> 0f42bb40-ca22-459f-bac4-2fe2ec5cdddf
+    - !<own> 152243c0-b18f-4e3b-8802-c20da6ae0d99
 - !<SceneObject/f0394c5d-4c44-4c65-a77c-e1c7e05ca905>
   PrefabRemaps:
     []
@@ -2575,6 +3326,21 @@
     - !<own> a7526b33-fca3-4f28-8e32-b0e9aa13c4b4
   Components:
     []
+- !<SceneObject/f99c6792-987d-4e0d-982b-09d07cf76a7b>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 400353cd-8dfe-4ad9-9ff8-b040c4e5a352
+  Components:
+    []
 - !<SceneObject/fcc185fc-4e88-4e9e-9c71-40bd83b1b0ed>
   PrefabRemaps:
     []
@@ -2590,6 +3356,26 @@
     - !<own> 2dae2a27-8ce6-466a-8bff-622195c1b3a8
   Components:
     []
+- !<RenderMeshVisual/fe20673d-83fc-42c4-b054-edd9e12d23fb>
+  PrefabRemaps:
+    []
+  Name: OShield
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9bd55c58-5559-499d-83aa-b4c183e1d109
+  Mesh: !<reference> f2f4308c-b8bf-4958-86e4-6efdeafb7d09
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
 - !<SceneObject/fe93d992-1114-4f1f-8bef-0a0bbd75747d>
   PrefabRemaps:
     []
