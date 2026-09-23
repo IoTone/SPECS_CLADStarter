@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/23fd0d73-ff7d-4951-9ffa-3e2ebc4da586>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 32aa84a1-3572-467a-94a5-20023a0bcaba
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 32aa84a1-3572-467a-94a5-20023a0bcaba
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 38da52a7-2d70-43b1-8e75-0b7e9d36d697
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/38da52a7-2d70-43b1-8e75-0b7e9d36d697>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 11bebd35-f411-4ede-822a-b74526f0b706
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    width: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - width: !<float> 32.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input float width = 32 {"hint":"Width of the local control panel, cm", "widget":"slider", "min":24, "max":44, "step":1}'

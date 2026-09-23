@@ -1,0 +1,112 @@
+- !<AssetImportMetadata/b27a57cf-41e1-4fc9-bc41-3d923498e93c>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> bbaed8fb-8523-4e5c-9472-3bacc835c181
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> bbaed8fb-8523-4e5c-9472-3bacc835c181
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 859b2fd6-b428-4cd5-844e-76249190c6a0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/859b2fd6-b428-4cd5-844e-76249190c6a0>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 99d74bcc-b74f-4f2e-aaf6-fcf3945957db
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    ballSpeed: false
+    board: false
+    camera: false
+    castleA: false
+    castleB: false
+    countdown: false
+    cpuAimError: false
+    cpuLapseChance: false
+    cpuReaction: false
+    cpuReactionJitter: false
+    hud: false
+    material: false
+    maxBallSpeed: false
+    roundsToWin: false
+    shieldSpeed: false
+    shieldWidth: false
+    suddenDeath: false
+    tableDistance: false
+    tableDrop: false
+    volume: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - board: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      castleA: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      castleB: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hud: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      ballSpeed: !<float> 28.000000
+      maxBallSpeed: !<float> 62.000000
+      shieldSpeed: !<float> 40.000000
+      shieldWidth: !<float> 7.000000
+      suddenDeath: !<float> 75.000000
+      countdown: !<float> 3.000000
+      roundsToWin: !<float> 2.000000
+      cpuReaction: 0.350000
+      cpuReactionJitter: 0.070000
+      cpuAimError: 3.400000
+      cpuLapseChance: 0.120000
+      volume: 0.300000
+      tableDistance: !<float> 85.000000
+      tableDrop: !<float> 40.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"Castle Clash — tabletop defense"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input SceneObject board {"hint":"Authored board root"}'
+    - '// @input SceneObject castleA {"hint":"Authored teal castle root"}'
+    - '// @input SceneObject castleB {"hint":"Authored amber castle root"}'
+    - '// @input AssignableType_1 hud {"hint":"Passive local controls"}'
+    - '// @input Component.Camera camera {"hint":"World tracked camera"}'
+    - '// @input Asset.Material material {"hint":"Vertex color geometry material"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Game balance"}'
+    - '// @input float ballSpeed = 28 {"hint":"Initial ball speed, cm/s", "widget":"slider", "min":15, "max":45, "step":1}'
+    - '// @input float maxBallSpeed = 62 {"hint":"Ball speed cap, cm/s", "widget":"slider", "min":40, "max":90, "step":1}'
+    - '// @input float shieldSpeed = 40 {"hint":"Shared human and CPU shield speed cap, cm/s", "widget":"slider", "min":20, "max":65, "step":1}'
+    - '// @input float shieldWidth = 7 {"hint":"Shield width in cm", "widget":"slider", "min":4, "max":12, "step":0.5}'
+    - '// @input float suddenDeath = 75 {"hint":"Seconds before symmetric wall removal", "widget":"slider", "min":30, "max":120, "step":5}'
+    - '// @input float countdown = 3 {"hint":"Initial and recovery countdown seconds", "widget":"slider", "min":1, "max":5, "step":0.5}'
+    - '// @input float roundsToWin = 2 {"hint":"Round wins needed", "widget":"slider", "min":1, "max":5, "step":1}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Average CPU"}'
+    - '// @input float cpuReaction = 0.35 {"hint":"Seconds between observations, not every-frame perfect tracking", "widget":"slider", "min":0.15, "max":0.8, "step":0.01}'
+    - '// @input float cpuReactionJitter = 0.07 {"hint":"Random timing variation either side of reaction interval", "widget":"slider", "min":0, "max":0.2, "step":0.01}'
+    - '// @input float cpuAimError = 3.4 {"hint":"Bounded stable aiming error along the rail in cm", "widget":"slider", "min":0, "max":8, "step":0.1}'
+    - '// @input float cpuLapseChance = 0.12 {"hint":"Chance to hesitate for an additional decision interval", "widget":"slider", "min":0, "max":0.4, "step":0.01}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Presentation"}'
+    - '// @input float volume = 0.3 {"hint":"Impact cue volume", "widget":"slider", "min":0, "max":1, "step":0.05}'
+    - '// @input float tableDistance = 85 {"hint":"Starting table distance in cm", "widget":"slider", "min":45, "max":130, "step":1}'
+    - '// @input float tableDrop = 40 {"hint":"Table below seated eye position, cm", "widget":"slider", "min":15, "max":70, "step":1}'
+    - '// @ui {"widget":"group_end"}'
