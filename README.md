@@ -31,9 +31,6 @@ You can create a SPECS project using the "Base Template" (https://developers.spe
 
 This is the magic.  Think about what you want to build.  If you were giving instructions to someone, how would you constrain your request so it isn't open to too much interpretation.   This is key.  You want to avoid ambiguity.  Don't be too broad unless you are trying to be so.  
 
-- For example: "Design a pool."  Could be interpreted in many ways.  Be more specific.  "Design a SPECS Lens with a pool full of plastic balls that are all interactable and show off real physics that you can interact with and push around with your hands.  Make it a game to empty the pool of all of the balls." Or "Design SPECS Lens with a pool table where hamsters play pool, and you bet on the winner of each round of pool played by hamsters (red team and blue team)".  This took about 10 minutes with codex/astra. 
-
+- (10 min Codex Astra) For example: "Design a pool."  Could be interpreted in many ways.  Be more specific.  "Design a SPECS Lens with a pool full of plastic balls that are all interactable and show off real physics that you can interact with and push around with your hands.  Make it a game to empty the pool of all of the balls." Or "Design SPECS Lens with a pool table where hamsters play pool, and you bet on the winner of each round of pool played by hamsters (red team and blue team)".  
+- (30min Codex/Astra + Claude/Opus5.5) "Design a SPECS Lens that is a castle defense game played against someone sitting across the table from you.  It should be tabletop style.  Think Warlords atari game done in 3d."
 - The default example "Can you please build me a periodic table SPECS Lens showing the atomic structure of various elements?" 
-
-- "Design a SPECS Lens that is a castle defense game played against someone sitting across the table from you.  It should be tabletop style.  Think Warlords atari game done in 3d."
-
