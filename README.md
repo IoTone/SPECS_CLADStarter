@@ -34,3 +34,9 @@ This is the magic.  Think about what you want to build.  If you were giving inst
 - (10 min Codex Astra) For example: "Design a pool."  Could be interpreted in many ways.  Be more specific.  "Design a SPECS Lens with a pool full of plastic balls that are all interactable and show off real physics that you can interact with and push around with your hands.  Make it a game to empty the pool of all of the balls." Or "Design SPECS Lens with a pool table where hamsters play pool, and you bet on the winner of each round of pool played by hamsters (red team and blue team)".  
 - (30min Codex/Astra + Claude/Opus5.5) "Design a SPECS Lens that is a castle defense game played against someone sitting across the table from you.  It should be tabletop style.  Think Warlords atari game done in 3d."
 - The default example "Can you please build me a periodic table SPECS Lens showing the atomic structure of various elements?" 
+
+### Compatibility with SPECS 24
+
+While this isn't officially supported, anyone can use CLAD to backport a design to Lens Studio 5.15.4 (for SPECS 24).  Jump to this link to learn more https://pavlo-stijn.dev/blog/posts/clad-skills-for-spectacles-2024.html
+
+Your possibilities may vary dependingon changes in the modern CLAD in the future.
